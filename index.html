@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0622</title>
+    <link rel="stylesheet" href="https://stackedit.io/style.css" />
+    <script src="/assets/processing.js"></script>
+</head>
+
+<body class="stackedit">
+    <div class="stackedit__left">
+        <div class="stackedit__toc">
+
+            <ul>
+                <li>
+                    <a href="#現役脳トレzoog仮">現役脳トレZoog(仮)</a>
+                    <ul>
+                        <li>
+                            <ul>
+                                <li></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#仕様">仕様</a>
+                            <ul>
+                                <li></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#クラス">クラス</a>
+                        </li>
+                        <li>
+                            <a href="#役割分担">役割分担</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="stackedit__right">
+        <div class="stackedit__html">
+            <h1 id="現役脳トレzoog仮">
+                <em>
+                    <strong>現役脳トレZoog(仮)</strong>
+                </em>
+            </h1>
+            <canvas id="canvas" data-processing-sources="assets/Main/Zoog_Bouncing.pde assets/Main/State.pde assets/Main/State_Class_Hanekaese.pde assets/Main/State_Game_Yokero.pde assets/Main/State_Game_Nerae.pde assets/Main/Board.pde assets/Main/Human.pde assets/Main/State_Title.pde assets/Main/Count.pde assets/Main/Sight.pde assets/Main/Zoog.pde assets/Main/State_End_Youwon.pde assets/Main/State_Pause.pde assets/Main/Main.pde assets/Main/Burret.pde assets/Main/Time.pde assets/Main/State_Game_Tobe.pde assets/Main/Zoog_Stopping.pde assets/Main/State_End_Gameover.pde assets/Main/Zoog_Jiggling.pde"></canvas>
+            <h4 id="提出日-20180615">提出日 2018/06/15</h4>
+            <h4 id="作成者-5415031-癸生川裕紀-5415062-田中太樹-5415082-森田瑛仁-5416001-天本大陽">作成者 5415031 癸生川裕紀, 5415062 田中太樹, 5415082 森田瑛仁, 5416001 天本大陽</h4>
+            <h4 id="source">
+                <a href="/docs/tree.html">Source</a>
+            </h4>
+            <hr>
+            <h2 id="仕様">仕様</h2>
+            <h4 id="ルール">ルール</h4>
+            <p>つぎつぎ出されるミニゲームをクリアしてステージを進めよう。
+                <br> ステージが進むほどハイスコアがだせるぞ。
+            </p>
+            <h4 id="操作">操作</h4>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th align="center">開始</th>
+                        <th align="center">次へ進む</th>
+                        <th align="center">戻る</th>
+                        <th align="center">ポーズ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td align="center">SPACE</td>
+                        <td align="center">G</td>
+                        <td align="center">R</td>
+                        <td align="center">P</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2 id="クラス">クラス</h2>
+            <p>
+                <img src="images/uml.png" alt="classDiagram"></p>
+            <p>使用したUMLモデリングツール :
+                <a href="https://yuml.me/diagram/scruffy/class/draw">yuml.me</a> &lt; /docs/uml</p>
+            <h2 id="役割分担">役割分担</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th align="center"></th>
+                        <th align="center"></th>
+                        <th align="center"></th>
+                        <th align="center"></th>
+                        <th align="center"></th>
+                        <th align="center"></th>
+                        <th align="center"></th>
+                        <th align="center"></th>
+                        <th align="center"></th>
+                        <th align="center"></th>
+                        <th align="center"></th>
+                        <th align="center"></th>
+                        <th align="center"></th>
+                        <th align="center"></th>
+                        <th align="center"></th>
+                        <th align="center"></th>
+                        <th align="center"></th>
+                        <th align="center"></th>
+                        <th align="center"></th>
+                        <th align="center"></th>
+                        <th align="center"></th>
+                        <th align="center"></th>
+                        <th align="center"></th>
+                        <th align="center"></th>
+                        <th align="center"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td align="center">5415031</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                    </tr>
+                    <tr>
+                        <td align="center">5415062</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                    </tr>
+                    <tr>
+                        <td align="center">5415082</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                    </tr>
+                    <tr>
+                        <td align="center">5416001</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
