@@ -42,15 +42,10 @@
 -
 
 #### 具体例
-
-- 買い物計算ゲーム
-
-- 数字反転カードゲーム
-
 - 対象をよける 横スクロールゲーム
-
-- スロットゲーム
-
+- 発射した球でZoogを消すシューティング
+- 買い物計算ゲーム
+- 数字反転カードゲーム
 - マウスでブロック崩しゲーム
 
 
@@ -170,6 +165,6 @@ OSwtMTQ5OTk1ODU4MF19
 
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODY0ODgzODksMjA2Nzg4NzgyMCwtMT
-I4NDM0NTgzNSwyMTAwMTk1OTgyXX0=
+eyJoaXN0b3J5IjpbNjU5ODI5NzIwLC0xNTg2NDg4Mzg5LDIwNj
+c4ODc4MjAsLTEyODQzNDU4MzUsMjEwMDE5NTk4Ml19
 -->
