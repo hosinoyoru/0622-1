@@ -41,7 +41,7 @@
 - 高齢者目線で設計されるUIでかんたん操作 : 操作説明のフォントにこだわり、サイズも大きくして高齢者向けに見やすいように工夫する。もしくはフォントサイズ調整用ボタンを設置する。
 
 - ステージ制のゲームで同じことを繰り返すだけの作業感を減らしユーザーが飽きないように配慮している。
-他のゲームは1ゲーム数分掛かったりするが、このげーｍ1ゲームが数秒程度で終わるので
+他のゲームは1ゲームが数分掛かったりするが、このゲームでは1ゲームが数秒程度で終わるので、やめるタイミング健康面で負担が少ない。
 
 
 
@@ -160,8 +160,8 @@ OSwtMTQ5OTk1ODU4MF19
 
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ5NTQwNTk0LDE0MTA0MTYyOTgsMTAyMT
-AyMDU4NSwtMjgzNjMwOCw3MTUzMTAxLC0xNzkxMTkxNjQ2LDY1
-OTgyOTcyMCwtMTU4NjQ4ODM4OSwyMDY3ODg3ODIwLC0xMjg0Mz
-Q1ODM1LDIxMDAxOTU5ODJdfQ==
+eyJoaXN0b3J5IjpbLTE3MzczNjQwODAsMTQxMDQxNjI5OCwxMD
+IxMDIwNTg1LC0yODM2MzA4LDcxNTMxMDEsLTE3OTExOTE2NDYs
+NjU5ODI5NzIwLC0xNTg2NDg4Mzg5LDIwNjc4ODc4MjAsLTEyOD
+QzNDU4MzUsMjEwMDE5NTk4Ml19
 -->
