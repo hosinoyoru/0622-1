@@ -52,7 +52,7 @@ Gameoverの場合Stage1のTitleへ戻る。
 
 ## 作品の独創的な点
 
-- 高齢者目線で設計されるUIでかんたん操作 : 操作説明のフォントにこだわり、サイズも大きくして見やすいように工夫する。
+- 高齢者目線で設計されるUIでかんたん操作 : 操作説明のフォントにこだわり、サイズも大きくして高齢者向けに見やすいように工夫する。もしくはフォントサイズ調整用ボタンを設置する。
 
 - ステージ制のゲームで同じことを繰り返すだけの作業感を減らしユーザーが飽きないようにしている。
 
@@ -163,7 +163,7 @@ OSwtMTQ5OTk1ODU4MF19
 
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0Mzk1NjIwMCwtMjgzNjMwOCw3MTUzMT
+eyJoaXN0b3J5IjpbMTAyMTAyMDU4NSwtMjgzNjMwOCw3MTUzMT
 AxLC0xNzkxMTkxNjQ2LDY1OTgyOTcyMCwtMTU4NjQ4ODM4OSwy
 MDY3ODg3ODIwLC0xMjg0MzQ1ODM1LDIxMDAxOTU5ODJdfQ==
 -->
