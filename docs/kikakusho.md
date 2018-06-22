@@ -135,8 +135,8 @@ DIRECTORY TREE
 |-|-|
 |7月6日 | |
 |7月13日| -|
-|7月20日 | -|
-|7月27日 |-|
+|7月20日 | 作品公開ページ草稿|
+|7月27日 |作品公開ページ完成|
 
 
 <!--stackedit_data:
@@ -159,8 +159,8 @@ OSwtMTQ5OTk1ODU4MF19
 
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg5MDQzNzU5LDEwMjEwMjA1ODUsLTI4Mz
-YzMDgsNzE1MzEwMSwtMTc5MTE5MTY0Niw2NTk4Mjk3MjAsLTE1
-ODY0ODgzODksMjA2Nzg4NzgyMCwtMTI4NDM0NTgzNSwyMTAwMT
-k1OTgyXX0=
+eyJoaXN0b3J5IjpbLTkyMTI1MTA1MywxMDIxMDIwNTg1LC0yOD
+M2MzA4LDcxNTMxMDEsLTE3OTExOTE2NDYsNjU5ODI5NzIwLC0x
+NTg2NDg4Mzg5LDIwNjc4ODc4MjAsLTEyODQzNDU4MzUsMjEwMD
+E5NTk4Ml19
 -->
