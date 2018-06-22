@@ -52,7 +52,7 @@ Gameoverの場合Stage1のTitleへ戻る。
 
 ## 作品の独創的な点
 
-- 高齢者目線で設計されるUIでかんたん操作
+- 高齢者目線で設計されるUIでかんたん操作 : 操作説明
 
 - 数種類のミニゲームを用意
 
@@ -165,7 +165,7 @@ OSwtMTQ5OTk1ODU4MF19
 
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MzYzMDgsNzE1MzEwMSwtMTc5MTE5MT
-Y0Niw2NTk4Mjk3MjAsLTE1ODY0ODgzODksMjA2Nzg4NzgyMCwt
-MTI4NDM0NTgzNSwyMTAwMTk1OTgyXX0=
+eyJoaXN0b3J5IjpbMjE0OTU1MDksLTI4MzYzMDgsNzE1MzEwMS
+wtMTc5MTE5MTY0Niw2NTk4Mjk3MjAsLTE1ODY0ODgzODksMjA2
+Nzg4NzgyMCwtMTI4NDM0NTgzNSwyMTAwMTk1OTgyXX0=
 -->
