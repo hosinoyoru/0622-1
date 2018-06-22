@@ -42,8 +42,9 @@
 -
 
 #### 具体例
-- 横から近づいてくる敵をジャンプでよけるキーボード横スクロールゲーム
-- 上から降ってくる敵をよけるマウススクロールゲーム
+ 横から近づいてくる敵をジャンプでよけるキーボード横スクロールゲーム
+
+ 上から降ってくる敵をよけるマウススクロールゲーム
 - 発射した球で敵を消すシューティングゲーム
 
 
@@ -162,7 +163,7 @@ OSwtMTQ5OTk1ODU4MF19
 
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTExOTE2NDYsNjU5ODI5NzIwLC0xNT
-g2NDg4Mzg5LDIwNjc4ODc4MjAsLTEyODQzNDU4MzUsMjEwMDE5
-NTk4Ml19
+eyJoaXN0b3J5IjpbLTg5Mjg1OTQ3OCwtMTc5MTE5MTY0Niw2NT
+k4Mjk3MjAsLTE1ODY0ODgzODksMjA2Nzg4NzgyMCwtMTI4NDM0
+NTgzNSwyMTAwMTk1OTgyXX0=
 -->
