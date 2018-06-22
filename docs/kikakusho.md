@@ -45,6 +45,8 @@
 - Stage 3 : 発射した球で敵を消すシューティングゲーム
 ---> 発射された球と動く敵の位置を予測することで脳トレになる
 
+[]1-1]->[]2-1]->[]3-1]
+敵の数が増える
 
 ## 作品の独創的な点
 
@@ -161,7 +163,7 @@ OSwtMTQ5OTk1ODU4MF19
 
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTU3NTU5NjcsNzE1MzEwMSwtMTc5MT
-E5MTY0Niw2NTk4Mjk3MjAsLTE1ODY0ODgzODksMjA2Nzg4Nzgy
-MCwtMTI4NDM0NTgzNSwyMTAwMTk1OTgyXX0=
+eyJoaXN0b3J5IjpbLTE3NjI1NjkxOSw3MTUzMTAxLC0xNzkxMT
+kxNjQ2LDY1OTgyOTcyMCwtMTU4NjQ4ODM4OSwyMDY3ODg3ODIw
+LC0xMjg0MzQ1ODM1LDIxMDAxOTU5ODJdfQ==
 -->
