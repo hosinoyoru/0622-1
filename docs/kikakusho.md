@@ -42,8 +42,9 @@
 -
 
 #### 具体例
-- 上から振って対象をよける 横スクロールゲーム
-- 発射した球でZoogを消すシューティングゲーム
+- 横から近づいてくる敵をジャンプでよけるキーボード横スクロールゲーム
+- 上から降ってくる敵をよけるマウススクロールゲーム
+- 発射した球で敵を消すシューティングゲーム
 
 
 ## 作品の独創的な点
@@ -161,7 +162,7 @@ OSwtMTQ5OTk1ODU4MF19
 
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMTc5NjI3OSw2NTk4Mjk3MjAsLTE1OD
-Y0ODgzODksMjA2Nzg4NzgyMCwtMTI4NDM0NTgzNSwyMTAwMTk1
-OTgyXX0=
+eyJoaXN0b3J5IjpbLTE3OTExOTE2NDYsNjU5ODI5NzIwLC0xNT
+g2NDg4Mzg5LDIwNjc4ODc4MjAsLTEyODQzNDU4MzUsMjEwMDE5
+NTk4Ml19
 -->
