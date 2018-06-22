@@ -46,7 +46,8 @@
 ---> 発射された球と動く敵の位置を予測することで脳トレになる
  
 2周目以降、周をおうごとに敵の数が増える。
-Gameclearできた場合つStageが進む。Gameoverの場合Stage1のTitleへ戻る。
+Gameclearできた場合次のStageへ進む。
+Gameoverの場合Stage1のTitleへ戻る。
 
 
 ## 作品の独創的な点
@@ -164,7 +165,7 @@ OSwtMTQ5OTk1ODU4MF19
 
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU3MzcwOTE5LDcxNTMxMDEsLTE3OTExOT
-E2NDYsNjU5ODI5NzIwLC0xNTg2NDg4Mzg5LDIwNjc4ODc4MjAs
-LTEyODQzNDU4MzUsMjEwMDE5NTk4Ml19
+eyJoaXN0b3J5IjpbLTg3MTgzMDI5Niw3MTUzMTAxLC0xNzkxMT
+kxNjQ2LDY1OTgyOTcyMCwtMTU4NjQ4ODM4OSwyMDY3ODg3ODIw
+LC0xMjg0MzQ1ODM1LDIxMDAxOTU5ODJdfQ==
 -->
