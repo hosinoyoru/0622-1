@@ -34,9 +34,8 @@
 
 - 認知症予防には脳トレに加え体を使うこと、指先を利用することも効果がある。パソコンで体を使うことは現実的に不可能なのでせめて指先は使うようにしたい。そのため、難しくなりすぎない範囲でマウス操作とキーボード操作の両方を利用していく。
 
-- ギャンブル要素 を記録にする
 
-- 長時間はつらいので、1ゲームが短時間で終わる、または中断機能をつける ---> ミニゲームのオムニバス形式にする
+- 1ゲームが短時間で終わる、または中断機能をつける ---> ミニゲームのオムニバス形式にする
 
 - 高齢者の興味関心がありそうなコンテンツをキャラクターとして登場させる（和食、ボードゲーム、家族、・・・）
 
@@ -171,6 +170,6 @@ OSwtMTQ5OTk1ODU4MF19
 
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ3NjYwNjA0LDIwNjc4ODc4MjAsLTEyOD
-QzNDU4MzUsMjEwMDE5NTk4Ml19
+eyJoaXN0b3J5IjpbLTExNDk0MjQzNDQsMjA2Nzg4NzgyMCwtMT
+I4NDM0NTgzNSwyMTAwMTk1OTgyXX0=
 -->
