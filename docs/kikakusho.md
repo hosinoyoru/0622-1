@@ -26,7 +26,7 @@
 
 ## 作品構想
 
--   時間がかかっても達成するというのを大切にしたいので制限時間は設けない。しかしこれでは張り合いがなくつまらなくなってしまう可能性もある。そこで難易度やクリアタイムやマウス操作かキーボード操作かといった要素を参考にポイントをつける。こうすることにより以前の自分との比較や知人や孫といった他の人たちと競えるようにする。
+-   時間がかかっても達成するというのを大切にしたいので制限時間は設けない。しかしこれでは張り合いがなくつまらなくなってしまう可能性もある。そこで難易度やクリアタイムやマウス操作かキーボード操作かといった要素を参考にscoreポイントをつける。こうすることにより以前の自分との比較や知人や孫といった他の人たちと競えるようにする。
 
 -   脳トレ系なのでマリオなどのアクション要素よりもこちらから指示を出してそれに合致するものを選択してもらうといったゲームにしていく。
 
@@ -160,8 +160,8 @@ OSwtMTQ5OTk1ODU4MF19
 
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMDQxNjI5OCwxMDIxMDIwNTg1LC0yOD
-M2MzA4LDcxNTMxMDEsLTE3OTExOTE2NDYsNjU5ODI5NzIwLC0x
-NTg2NDg4Mzg5LDIwNjc4ODc4MjAsLTEyODQzNDU4MzUsMjEwMD
-E5NTk4Ml19
+eyJoaXN0b3J5IjpbMTkzMTUyMjg1OCwxNDEwNDE2Mjk4LDEwMj
+EwMjA1ODUsLTI4MzYzMDgsNzE1MzEwMSwtMTc5MTE5MTY0Niw2
+NTk4Mjk3MjAsLTE1ODY0ODgzODksMjA2Nzg4NzgyMCwtMTI4ND
+M0NTgzNSwyMTAwMTk1OTgyXX0=
 -->
