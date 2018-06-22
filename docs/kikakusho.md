@@ -42,12 +42,11 @@
 -
 
 #### 具体例
- 横から近づいてくる敵をジャンプでよけるキーボード横スクロールゲーム
- 上から降ってくる敵をよけるマウススクロールゲーム
+- 横から近づいてくる敵をジャンプでよけるキーボード横スクロールゲーム
 ---> 反射神経を鍛えることで脳トレになる
-
-
- 発射した球で敵を消すシューティングゲーム
+- 上から降ってくる敵をよけるマウススクロールゲーム
+---> 反射神経を鍛えることで脳トレになる
+- 発射した球で敵を消すシューティングゲーム
 ---> 発射された球と動く敵の位置を予測することで脳トレになる
 
 ## 作品の独創的な点
@@ -165,7 +164,7 @@ OSwtMTQ5OTk1ODU4MF19
 
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExOTAxNjIzOSwtMTc5MTE5MTY0Niw2NT
+eyJoaXN0b3J5IjpbLTY4NDMzMTI2OSwtMTc5MTE5MTY0Niw2NT
 k4Mjk3MjAsLTE1ODY0ODgzODksMjA2Nzg4NzgyMCwtMTI4NDM0
 NTgzNSwyMTAwMTk1OTgyXX0=
 -->
