@@ -120,7 +120,8 @@ DIRECTORY TREE
 
 
 ## 制作計画
-
+  
+- 授業で作成したものを参考にすることにより製作コストを下げているので一人一つ簡単なものを作るようにする。それらを組み合わせ最終的に全体でブラッシュアップしていく。
 #### メモ共有 :
 
 - Slack https://digicon1.slack.com/
@@ -141,6 +142,13 @@ DIRECTORY TREE
 
 - 毎週土曜12:00- など
 
+作成計画スケジュール
+6月末 | 
+-------- | -----
+7月6日 | 
+7月13日| 
+7月20日 | 
+7月27日 |
 
 
 <!--stackedit_data:
@@ -163,6 +171,6 @@ OSwtMTQ5OTk1ODU4MF19
 
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2Nzg4NzgyMCwtMTI4NDM0NTgzNSwyMT
-AwMTk1OTgyXX0=
+eyJoaXN0b3J5IjpbNTQ3NjYwNjA0LDIwNjc4ODc4MjAsLTEyOD
+QzNDU4MzUsMjEwMDE5NTk4Ml19
 -->
