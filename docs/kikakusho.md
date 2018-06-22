@@ -30,10 +30,7 @@
 
 -   脳トレ系なのでマリオなどのアクション要素よりもこちらから指示を出してそれに合致するものを選択してもらうといったゲームにしていく。
 
-- 反射神経を必要としないカードゲームなど
-
 - 認知症予防には脳トレに加え体を使うこと、指先を利用することも効果がある。パソコンで体を使うことは現実的に不可能なのでせめて指先は使うようにしたい。そのため、難しくなりすぎない範囲でマウス操作とキーボード操作の両方を利用していく。
-
 
 - 高齢者には長時間のプレイは大変と思われるので、1ゲームが短時間で終わる、または中断機能をつける ---> ミニゲームのオムニバス形式にする
 
@@ -164,7 +161,7 @@ OSwtMTQ5OTk1ODU4MF19
 
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NDMzMTI2OSwtMTc5MTE5MTY0Niw2NT
+eyJoaXN0b3J5IjpbMjAzMDg5NDk3OSwtMTc5MTE5MTY0Niw2NT
 k4Mjk3MjAsLTE1ODY0ODgzODksMjA2Nzg4NzgyMCwtMTI4NDM0
 NTgzNSwyMTAwMTk1OTgyXX0=
 -->
