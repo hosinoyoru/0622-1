@@ -44,10 +44,9 @@
 #### 具体例
 - 対象をよける 横スクロールゲーム
 - 発射した球でZoogを消すシューティング
-- 買い物計算ゲーム
 - 数字反転カードゲーム
 - マウスでブロック崩しゲーム
-
+- 
 
 
 ## 作品の独創的な点
@@ -165,6 +164,7 @@ OSwtMTQ5OTk1ODU4MF19
 
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU5ODI5NzIwLC0xNTg2NDg4Mzg5LDIwNj
-c4ODc4MjAsLTEyODQzNDU4MzUsMjEwMDE5NTk4Ml19
+eyJoaXN0b3J5IjpbOTI5NTE4NjgzLDY1OTgyOTcyMCwtMTU4Nj
+Q4ODM4OSwyMDY3ODg3ODIwLC0xMjg0MzQ1ODM1LDIxMDAxOTU5
+ODJdfQ==
 -->
