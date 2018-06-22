@@ -38,12 +38,13 @@
 
 
 #### 具体例
-- 横から近づいてくる敵( 笹団子 )をジャンプでよけるキーボード横スクロールゲーム
+- Stage 1 : 横から近づいてくる敵( 笹団子 )をジャンプでよけるキーボード横スクロールゲーム
 ---> 反射神経を鍛えることで脳トレになる
-- 上から降ってくる敵( 囲碁盤 )をよけるマウススクロールゲーム
+- Stage 2 : 上から降ってくる敵( 囲碁盤 )をよけるマウススクロールゲーム
 ---> 反射神経を鍛えることで脳トレになる
-- 発射した球で敵を消すシューティングゲーム
+- Stage 3 : 発射した球で敵を消すシューティングゲーム
 ---> 発射された球と動く敵の位置を予測することで脳トレになる
+
 
 ## 作品の独創的な点
 
@@ -160,7 +161,7 @@ OSwtMTQ5OTk1ODU4MF19
 
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDY3OTk1NzcsNzE1MzEwMSwtMTc5MT
+eyJoaXN0b3J5IjpbLTE4OTU3NTU5NjcsNzE1MzEwMSwtMTc5MT
 E5MTY0Niw2NTk4Mjk3MjAsLTE1ODY0ODgzODksMjA2Nzg4Nzgy
 MCwtMTI4NDM0NTgzNSwyMTAwMTk1OTgyXX0=
 -->
