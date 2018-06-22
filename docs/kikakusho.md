@@ -47,7 +47,7 @@
 
 - 数字反転カードゲーム
 
-- 対象をよける- 横スクロールゲーム
+- 対象をよける 横スクロールゲーム
 
 - スロットゲーム
 
@@ -170,6 +170,6 @@ OSwtMTQ5OTk1ODU4MF19
 
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA3NTE2Mzc2LDIwNjc4ODc4MjAsLTEyOD
-QzNDU4MzUsMjEwMDE5NTk4Ml19
+eyJoaXN0b3J5IjpbLTE1ODY0ODgzODksMjA2Nzg4NzgyMCwtMT
+I4NDM0NTgzNSwyMTAwMTk1OTgyXX0=
 -->
