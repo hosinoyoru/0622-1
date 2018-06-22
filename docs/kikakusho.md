@@ -40,7 +40,7 @@
 
 - 高齢者目線で設計されるUIでかんたん操作 : 操作説明のフォントにこだわり、サイズも大きくして高齢者向けに見やすいように工夫する。もしくはフォントサイズ調整用ボタンを設置する。
 
-- ステージ制のゲームで同じことを繰り返すだけの作業感を減らしユーザーが飽きないようにしている。
+- ステージ制のゲームで同じことを繰り返すだけの作業感を減らしユーザーが飽きないように配慮している。
 
 
 
@@ -160,8 +160,8 @@ OSwtMTQ5OTk1ODU4MF19
 
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMTUyMjg1OCwxNDEwNDE2Mjk4LDEwMj
-EwMjA1ODUsLTI4MzYzMDgsNzE1MzEwMSwtMTc5MTE5MTY0Niw2
-NTk4Mjk3MjAsLTE1ODY0ODgzODksMjA2Nzg4NzgyMCwtMTI4ND
-M0NTgzNSwyMTAwMTk1OTgyXX0=
+eyJoaXN0b3J5IjpbLTE2ODMwMDI2MTUsMTQxMDQxNjI5OCwxMD
+IxMDIwNTg1LC0yODM2MzA4LDcxNTMxMDEsLTE3OTExOTE2NDYs
+NjU5ODI5NzIwLC0xNTg2NDg4Mzg5LDIwNjc4ODc4MjAsLTEyOD
+QzNDU4MzUsMjEwMDE5NTk4Ml19
 -->
