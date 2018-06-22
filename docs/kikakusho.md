@@ -52,11 +52,9 @@ Gameoverの場合Stage1のTitleへ戻る。
 
 ## 作品の独創的な点
 
-- 高齢者目線で設計されるUIでかんたん操作 : 操作説明
+- 高齢者目線で設計されるUIでかんたん操作 : 操作説明のフォントにこだわり、ｓ
 
-- 数種類のミニゲームを用意
-
-- こういったゲームでは基本的に同じキャラクターを利用し続けるがこのゲームではzoog以外にもキャラクターを増やして実装する。また、システム自体は複雑なものではなく簡単なものを組み合わせる形でステージ制のゲームにして同じことを繰り返すだけの作業感を減らしユーザーが飽きないようにしている。
+- 数種類のミニゲームを用意してシステム自体は複雑なものではなく簡単なものを組み合わせる形でステージ制のゲームにして同じことを繰り返すだけの作業感を減らしユーザーが飽きないようにしている。
 
 
 
@@ -165,7 +163,7 @@ OSwtMTQ5OTk1ODU4MF19
 
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0OTU1MDksLTI4MzYzMDgsNzE1MzEwMS
-wtMTc5MTE5MTY0Niw2NTk4Mjk3MjAsLTE1ODY0ODgzODksMjA2
-Nzg4NzgyMCwtMTI4NDM0NTgzNSwyMTAwMTk1OTgyXX0=
+eyJoaXN0b3J5IjpbLTIwMDA4MzQ3MywtMjgzNjMwOCw3MTUzMT
+AxLC0xNzkxMTkxNjQ2LDY1OTgyOTcyMCwtMTU4NjQ4ODM4OSwy
+MDY3ODg3ODIwLC0xMjg0MzQ1ODM1LDIxMDAxOTU5ODJdfQ==
 -->
