@@ -38,14 +38,14 @@
 
 
 #### 具体例
-- Stage 1(1週目) : 横から近づいてくる敵( 笹団子 )をジャンプでよけるキーボード横スクロールゲーム
+- Stage 1(1ｓ週目) : 横から近づいてくる敵( 笹団子 )をジャンプでよけるキーボード横スクロールゲーム
 ---> 反射神経を鍛えることで脳トレになる
 - Stage 2(1週目): 上から降ってくる敵( 囲碁盤 )をよけるマウススクロールゲーム
 ---> 反射神経を鍛えることで脳トレになる
 - Stage 3(1週目): 発射した球で敵を消すシューティングゲーム
 ---> 発射された球と動く敵の位置を予測することで脳トレになる
  
-2週敵の数が増える
+2週目以降、週をおうごとに敵の数が増える
 
 
 ## 作品の独創的な点
@@ -163,7 +163,7 @@ OSwtMTQ5OTk1ODU4MF19
 
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1ODkxNDc0LDcxNTMxMDEsLTE3OTExOT
+eyJoaXN0b3J5IjpbNzc0NjYwNzk2LDcxNTMxMDEsLTE3OTExOT
 E2NDYsNjU5ODI5NzIwLC0xNTg2NDg4Mzg5LDIwNjc4ODc4MjAs
 LTEyODQzNDU4MzUsMjEwMDE5NTk4Ml19
 -->
