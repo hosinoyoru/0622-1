@@ -131,11 +131,12 @@ DIRECTORY TREE
 - 毎週土曜12:00- など
 
 作成計画スケジュール
-|6月末 | -|
+|6月末 | 企画書作成、|
+|-|-|
 |7月6日 | -|
 |7月13日| -|
 |7月20日 | -|
-|7月27日 |- |
+|7月27日 |-|
 
 
 <!--stackedit_data:
@@ -158,8 +159,8 @@ OSwtMTQ5OTk1ODU4MF19
 
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjczMzgxNTMsMTAyMTAyMDU4NSwtMj
-gzNjMwOCw3MTUzMTAxLC0xNzkxMTkxNjQ2LDY1OTgyOTcyMCwt
-MTU4NjQ4ODM4OSwyMDY3ODg3ODIwLC0xMjg0MzQ1ODM1LDIxMD
-AxOTU5ODJdfQ==
+eyJoaXN0b3J5IjpbLTk1OTM1MjY0NSwxMDIxMDIwNTg1LC0yOD
+M2MzA4LDcxNTMxMDEsLTE3OTExOTE2NDYsNjU5ODI5NzIwLC0x
+NTg2NDg4Mzg5LDIwNjc4ODc4MjAsLTEyODQzNDU4MzUsMjEwMD
+E5NTk4Ml19
 -->
