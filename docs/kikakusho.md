@@ -45,7 +45,7 @@
 - Stage 3(1周目): 発射した球で敵を消すシューティングゲーム
 ---> 発射された球と動く敵の位置を予測することで脳トレになる
  
-2周目以降、周をおうごとに敵の数が増える。
+2周目以降、周ごとに敵の数が増える。
 Gameclearできた場合次のStageへ進む。
 Gameoverの場合Stage1のTitleへ戻る。
 
@@ -165,7 +165,7 @@ OSwtMTQ5OTk1ODU4MF19
 
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MTgzMDI5Niw3MTUzMTAxLC0xNzkxMT
-kxNjQ2LDY1OTgyOTcyMCwtMTU4NjQ4ODM4OSwyMDY3ODg3ODIw
-LC0xMjg0MzQ1ODM1LDIxMDAxOTU5ODJdfQ==
+eyJoaXN0b3J5IjpbLTI4MzYzMDgsNzE1MzEwMSwtMTc5MTE5MT
+Y0Niw2NTk4Mjk3MjAsLTE1ODY0ODgzODksMjA2Nzg4NzgyMCwt
+MTI4NDM0NTgzNSwyMTAwMTk1OTgyXX0=
 -->
