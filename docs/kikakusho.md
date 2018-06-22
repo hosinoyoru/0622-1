@@ -57,7 +57,7 @@
 Gameclearできた場合次のStageへ進む。
 Gameoverの場合Stage1のTitleへ戻る。
 
-- 授業で作成したものを参考にすることにより製作コストをなるべく削減し、その分ステージごとにゲーム性を変え記録を取り、scoreポイントを集計する。
+また、scoreを加算して、集計したscoreポイントをGameover画面で表示する。
 
 #### プロジェクト概要
 
@@ -159,8 +159,8 @@ OSwtMTQ5OTk1ODU4MF19
 
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg0NjQ5NzA2LDEwMjEwMjA1ODUsLTI4Mz
-YzMDgsNzE1MzEwMSwtMTc5MTE5MTY0Niw2NTk4Mjk3MjAsLTE1
-ODY0ODgzODksMjA2Nzg4NzgyMCwtMTI4NDM0NTgzNSwyMTAwMT
-k1OTgyXX0=
+eyJoaXN0b3J5IjpbMTczMjY4NjEyOSwxMDIxMDIwNTg1LC0yOD
+M2MzA4LDcxNTMxMDEsLTE3OTExOTE2NDYsNjU5ODI5NzIwLC0x
+NTg2NDg4Mzg5LDIwNjc4ODc4MjAsLTEyODQzNDU4MzUsMjEwMD
+E5NTk4Ml19
 -->
