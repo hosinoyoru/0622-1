@@ -56,7 +56,7 @@ Gameoverの場合Stage1のTitleへ戻る。
 
 - 数種類のミニゲームを用意してシステム自体は複雑なものにしない。
 
-- 簡単なものを組み合わせる形でステージ制のゲームにして同じことを繰り返すだけの作業感を減らしユーザーが飽きないようにしている。
+- ステージ制のゲームにして同じことを繰り返すだけの作業感を減らしユーザーが飽きないようにしている。
 
 
 
@@ -165,7 +165,7 @@ OSwtMTQ5OTk1ODU4MF19
 
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MzkyOTMyNCwtMjgzNjMwOCw3MTUzMT
-AxLC0xNzkxMTkxNjQ2LDY1OTgyOTcyMCwtMTU4NjQ4ODM4OSwy
-MDY3ODg3ODIwLC0xMjg0MzQ1ODM1LDIxMDAxOTU5ODJdfQ==
+eyJoaXN0b3J5IjpbNjE1MTkwOTM0LC0yODM2MzA4LDcxNTMxMD
+EsLTE3OTExOTE2NDYsNjU5ODI5NzIwLC0xNTg2NDg4Mzg5LDIw
+Njc4ODc4MjAsLTEyODQzNDU4MzUsMjEwMDE5NTk4Ml19
 -->
