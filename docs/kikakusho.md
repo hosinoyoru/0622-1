@@ -61,7 +61,7 @@ Gameoverの場合Stage1のTitleへ戻る。
 
 ## システム設計
 
-- 授業で作成したものを参考にすることにより製作コストをなるべく削減し、その分ステージごとにゲーム性を変え10ステージごとなどで記録を取り、ポイントを集計する。
+- 授業で作成したものを参考にすることにより製作コストをなるべく削減し、その分ステージごとにゲーム性を変え10ステージごとなどで記録を取り、scoreポイントを集計する。
 
 #### プロジェクト概要
 
@@ -163,7 +163,8 @@ OSwtMTQ5OTk1ODU4MF19
 
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMTAyMDU4NSwtMjgzNjMwOCw3MTUzMT
-AxLC0xNzkxMTkxNjQ2LDY1OTgyOTcyMCwtMTU4NjQ4ODM4OSwy
-MDY3ODg3ODIwLC0xMjg0MzQ1ODM1LDIxMDAxOTU5ODJdfQ==
+eyJoaXN0b3J5IjpbOTYwMjIyNzk5LDEwMjEwMjA1ODUsLTI4Mz
+YzMDgsNzE1MzEwMSwtMTc5MTE5MTY0Niw2NTk4Mjk3MjAsLTE1
+ODY0ODgzODksMjA2Nzg4NzgyMCwtMTI4NDM0NTgzNSwyMTAwMT
+k1OTgyXX0=
 -->
