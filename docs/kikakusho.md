@@ -36,10 +36,9 @@
 
 - 高齢者の興味関心がありそうなコンテンツをキャラクターとして登場させる（和食、ボードゲーム、家族、・・・）
 
--
 
 #### 具体例
-- 横から近づいてくる敵をジャンプでよけるキーボード横スクロールゲーム
+- 横から近づいてくる敵( 笹団子 )をジャンプでよけるキーボード横スクロールゲーム
 ---> 反射神経を鍛えることで脳トレになる
 - 上から降ってくる敵をよけるマウススクロールゲーム
 ---> 反射神経を鍛えることで脳トレになる
@@ -161,7 +160,7 @@ OSwtMTQ5OTk1ODU4MF19
 
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMDg5NDk3OSwtMTc5MTE5MTY0Niw2NT
-k4Mjk3MjAsLTE1ODY0ODgzODksMjA2Nzg4NzgyMCwtMTI4NDM0
-NTgzNSwyMTAwMTk1OTgyXX0=
+eyJoaXN0b3J5IjpbNzE1MzEwMSwtMTc5MTE5MTY0Niw2NTk4Mj
+k3MjAsLTE1ODY0ODgzODksMjA2Nzg4NzgyMCwtMTI4NDM0NTgz
+NSwyMTAwMTk1OTgyXX0=
 -->
