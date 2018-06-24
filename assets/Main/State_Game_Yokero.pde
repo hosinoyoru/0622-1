@@ -24,6 +24,7 @@ class State_Game_Yokero extends State {
     }
     human = new Human();
     count = new Count(count_all);
+    count.dead = true;
     time  = new Time(t_all, t_state);
     gameclear = false;
     gameover  = false;
@@ -37,7 +38,7 @@ class State_Game_Yokero extends State {
       //if (mousePressed) zoog[i].crushed(mouseX, mouseY);
       //if( mousePressed && zoog[i].eye_l_crushed||zoog[i].eye_r_crushed ) zoog[i].speed = 0.4;
       //if( !mousePressed ) zoog[i].speed = 1;
-      //if (zoog[i].overflow(zoog[i])) gameover = true;
+      if (zoog[i].overflow(zoog[i])) count.count_dead++;
       //if (board.hit(zoog[i].x, zoog[i].y)) {
          //t_all += 5;
          //count.count_hit++;
@@ -66,7 +67,7 @@ class State_Game_Yokero extends State {
       zoog[i].display();
     human.display();
     //sight.display();
-    //count.display();
+    count.display();
     time.display();
   }
   

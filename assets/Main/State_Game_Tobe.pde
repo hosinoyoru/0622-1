@@ -24,6 +24,7 @@ class State_Game_Tobe extends State {
     }
     human = new Human();
     count = new Count(count_all);
+    count.dead = true;
     time  = new Time(t_all, t_state);
     gameclear = false;
     gameover  = false;
@@ -37,7 +38,7 @@ class State_Game_Tobe extends State {
       //if (mousePressed) zg.crushed(mouseX, mouseY);
       //if( mousePressed && zg.eye_l_crushed||zg.eye_r_crushed ) zg.speed = 0.4;
       //if( !mousePressed ) zg.speed = 1;
-      //if (zg.overflow(zg)) gameover = true;
+      if (zg.overflow(zg)) count.count_dead++;
       //if (board.hit(zg.x, zg.y)) {
          //t_all += 5;
          //count.count_hit++;
@@ -45,7 +46,7 @@ class State_Game_Tobe extends State {
          //zg.eye_r_crushed = true;
         //if(i%count_all==0)gameover = true;
       //}
-      //if(human.hit(zg.x, zg.y, zg.w)) gameover = true;
+      if(human.hit(zg.x, zg.y, zg.w)) gameover = true;
     }
     for (Zoog i : zoog) {
       if ( !i.dead() ) {
@@ -55,19 +56,20 @@ class State_Game_Tobe extends State {
       gameclear = true;
     }
     //board.follow_x();
-    human.jump();
+    human.move();
     
     time  = new Time(t_all, t_state);
   }
 
   void display() {
     background(255);
+    line(0, height*0.8, width, height*0.8);
     //board.display();
     for (int i=0; i<zoog.length; i++)
       zoog[i].display();
     human.display();
     //sight.display();
-    //count.display();
+    count.display();
     time.display();
   }
   

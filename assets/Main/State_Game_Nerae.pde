@@ -23,6 +23,7 @@ class State_Game_Nerae extends State {
       //zoog[i] = new Zoog_Jiggling( (int)random(width), (int)random(-height+1,0), board );
     }
     count = new Count(count_all);
+    count.dead = true;
     time  = new Time(t_all, t_state);
     gameclear = false;
     gameover  = false;
@@ -62,7 +63,7 @@ class State_Game_Nerae extends State {
     for (int i=0; i<zoog.length; i++)
       zoog[i].display();
     sight.display();
-    //count.display();
+    count.display();
     time.display();
   }
   

@@ -1,16 +1,19 @@
 class Human {
-  float human_x, human_y, human_r, xspeed, yspeed;
+  float human_x, human_y, human_r, x_d, xspeed, y_d, yspeed;
 
   Human() {
-    human_x = width * 0.5;
+    human_x = width * 0.2;
     human_y = height * 0.8;
     human_r = 25;
+    x_d = 0;
+    y_d = 0;
     xspeed = 0;
     yspeed = 0;
   }
 
   void display() {
     fill(200, 200, 0);
+    strokeWeight(5);
     stroke(100);
     ellipseMode(RADIUS);
     ellipse( human_x, human_y, human_r, human_r );     // head
@@ -24,27 +27,32 @@ class Human {
   void follow_x() {
     human_x = mouseX;
   }
-
-  void jump() {
-    if (keyPressed && key == CODED) {
-      if (keyCode == LEFT) xspeed = -3;
-      if (keyCode == RIGHT) xspeed = 3;
-    }
-    human_x += xspeed;
-    human_y += yspeed;
-    if (human_x > width - 11) human_x = width - 11;
-    else if (human_x < 0) human_x = 0;
-    if (human_y<500) yspeed += 0.3;
-    else { 
-      yspeed = 0; 
-      human_y = 500;
-    }
-    if (key == ' ' && human_y == 500) {
-      yspeed = -5;
-    }
+  
+  void move(){
+    if ( keyPressed && key == CODED && keyCode == LEFT) { x_d = -1; xspeed = 2; }
+    if ( keyPressed && key == CODED && keyCode == RIGHT){ x_d = 1; xspeed = 2; } 
+    if ( keyPressed && key == ' ' && human_y == height * 0.8){ y_d = -1; yspeed = 5; }
+    
+    human_x += x_d * xspeed;
+    human_y += y_d * yspeed;
+    xspeed *= 0.993;                            // slow down because of Air resistance
+    if (human_x > width) human_x = width;      // reaching right wall
+    if (human_x < 0) human_x = 0;              // reaching left wall
+    
+    if (human_y >= height * 0.8 ){ human_y = height * 0.8; yspeed = 0; }  // on the ground
+    else { y_d += 0.02;  }                      // falling to the ground
   }
 
+  void keyPressed(){
+  }
+  
+  void keyReleased(){
+    //if(key == ' ' && yspeed < 0.5) yspeed = 0.5;
 
+     //xspeed = 0;
+    //if ( key == CODED && keyCode == RIGHT) xspeed = 0;
+    //  if(key == ' ' && yspeed < 0) yspeed = 0;
+  }
 
   boolean hit(float x, float y, float r) {
     return (dist(x, y, human_x, human_y) <= r + human_r);
