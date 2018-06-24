@@ -76,12 +76,12 @@ DIRECTORY TREE
 
 ```
 - Processingで作成したプログラムを processingjs.org よりダウンロードした変換用スクリプトとともに`assets`内に格納しておく。
-- `docs/index.html`内の`<script>`要素で変換用スクリプトを読み込み、`<canvas>`要素で`/assets/{sketch}/***.pde`を実行して描画する。
+- `docs/index.html`内の`<script>`要素で変換用スクリプトを読み込み、`<canvas>`要素で`assets/{sketch}/***.pde`を実行して描画する。
 
 
 #### ゲームプログラムの詳細設計・クラスの構想
 
-![classDiagrams](images/uml.svg)
+![classDiagrams](../images/uml001.svg)
 
 
 状態を表す`State`クラスおよびその派生クラスを繰り返し実行してゲームの状態遷移を表現する。
@@ -89,7 +89,7 @@ DIRECTORY TREE
 
 周回制をとり、各ステージでGame_A, Game_B, ... を順に実行する。2週目以降は敵の数が増える。
 
-- `State_Title` タイトル画面。ステージ数として引数stageを受け取る。
+- `State_Title` タイトル画面。ステージ数として引数stageを受け取る。
 - `State_Game_A` 横から近づいてくる敵( 笹団子 )をジャンプでよけるキーボード横スクロールゲーム（構想中）
 &rArr; 反射神経を鍛えることで脳トレになる
 - `State_Game_B` 上から降ってくる敵( 囲碁盤 )をよけるマウススクロールゲーム（構想中）
