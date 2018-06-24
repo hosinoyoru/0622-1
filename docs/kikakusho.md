@@ -81,7 +81,7 @@ DIRECTORY TREE
 
 #### ゲームプログラムの詳細設計・クラスの構想
 
-![classDiagrams](../images/uml.svg)
+![classDiagrams](images/uml.svg)
 
 
 状態を表す`State`クラスおよびその派生クラスを繰り返し実行してゲームの状態遷移を表現する。
