@@ -34,18 +34,17 @@ class Human {
     human_y += yspeed;
     if (human_x > width - 11) human_x = width - 11;
     else if (human_x < 0) human_x = 0;
-    if (human_y<350) yspeed += 0.3;
+    if (human_y<500) yspeed += 0.3;
     else { 
       yspeed = 0; 
-      human_y = 350;
+      human_y = 500;
     }
-  }
-
-  void keyPressed() {
-    if (key == ' ' && human_y == 350) {
+    if (key == ' ' && human_y == 500) {
       yspeed = -5;
     }
   }
+
+
 
   boolean hit(float x, float y, float r) {
     return (dist(x, y, human_x, human_y) <= r + human_r);

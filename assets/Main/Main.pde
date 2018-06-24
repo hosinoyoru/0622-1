@@ -1,3 +1,4 @@
+/* @pjs preload="data/Splatfont-32.vlw"; */ 
 State state;
 PFont font;
 
