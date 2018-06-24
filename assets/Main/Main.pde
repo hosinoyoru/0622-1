@@ -1,11 +1,10 @@
-/* @pjs preload="data/Splatfont-32.vlw"; */ 
 State state;
 PFont font;
 
 void setup() {  
   size(800, 800);
   frameRate(120);
-  font = loadFont("Splatfont-32.vlw");
+  font = createFont("rounded-mgenplus-1c-black.ttf", 40);
   textFont(font);
   state = new State_Title(1);
 }
