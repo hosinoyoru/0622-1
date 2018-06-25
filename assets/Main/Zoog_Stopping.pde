@@ -7,5 +7,4 @@ class Zoog_Stopping extends Zoog {
   void move() {
     // do nothing
   }
-
 }

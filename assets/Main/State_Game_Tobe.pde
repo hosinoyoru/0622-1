@@ -16,7 +16,7 @@ class State_Game_Tobe extends State {
     this.zoog = new Zoog[count_all]; 
     //this.sight = new Sight();
     //board = new Board();
-    zoog[0] = new Zoog_Bouncing( (int)random(width), (int)random(-height, 0));
+    zoog[0] = new Zoog_Crossing( (int)random(width), (int)random(-height, 0));
     for (int i=1; i<zoog.length; i++) {
       zoog[i] = new Zoog_Bouncing( (int)random(width), (int)random(-height, 0) % (zoog[i-1].y*100));
       //if(i%count_all == 0)
@@ -40,13 +40,13 @@ class State_Game_Tobe extends State {
       //if( !mousePressed ) zg.speed = 1;
       if (zg.overflow(zg)) count.count_dead++;
       //if (board.hit(zg.x, zg.y)) {
-         //t_all += 5;
-         //count.count_hit++;
-         //zg.eye_l_crushed = true;
-         //zg.eye_r_crushed = true;
-        //if(i%count_all==0)gameover = true;
+      //t_all += 5;
+      //count.count_hit++;
+      //zg.eye_l_crushed = true;
+      //zg.eye_r_crushed = true;
+      //if(i%count_all==0)gameover = true;
       //}
-      if(human.hit(zg.x, zg.y, zg.w)) gameover = true;
+      if (human.hit(zg.x, zg.y, zg.w)) gameover = true;
     }
     for (Zoog i : zoog) {
       if ( !i.dead() ) {
@@ -57,7 +57,7 @@ class State_Game_Tobe extends State {
     }
     //board.follow_x();
     human.move();
-    
+
     time  = new Time(t_all, t_state);
   }
 
@@ -72,7 +72,7 @@ class State_Game_Tobe extends State {
     count.display();
     time.display();
   }
-  
+
   State next() {
     if (gameclear) return new State_End_Youwon(stage);
     else if (gameover) return new State_End_Gameover("Fallen Out", stage*1000+count.count_dead*100+time.t_remain*10);

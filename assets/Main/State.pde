@@ -1,7 +1,7 @@
 abstract class State {
-  float t_point;
-  float t_state;
+  float t_point, t_state;
   int strokeweight;
+
   State() {
     t_point = millis();
   }

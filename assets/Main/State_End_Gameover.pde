@@ -1,13 +1,15 @@
 class State_End_Gameover extends State {
   String cause;
-  int score;
-  
-    State_End_Gameover(String cause, int score){
-      this.cause = cause;
-      this.score = score;
-    }
-  void update() {/* do nothing */
+  float score, score_all = 0;
+
+  State_End_Gameover(String cause, float score) {
+    this.cause = cause;
+    this.score = score;
   }
+
+  void update() {
+  }
+
   void display() {
     background(255);
     textSize(32);
@@ -17,7 +19,7 @@ class State_End_Gameover extends State {
     textSize(20);
     fill(0);
     text(cause, width*0.5, height*0.6);
-    text("Score: "+score, width*0.5, height*0.7);
+    text("Score: "+floor(score_all), width*0.5, height*0.7);
     if (t_state > 2) {
       textSize(20);
       fill(0);

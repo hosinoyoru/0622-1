@@ -35,8 +35,8 @@ class State_Game_Nerae extends State {
       zoog[i].move();
       if (zoog[i].dead()) count.count_dead++; 
       if (mousePressed) zoog[i].crushed(mouseX, mouseY);
-      if( mousePressed && zoog[i].eye_l_crushed||zoog[i].eye_r_crushed ) zoog[i].speed = 0.4;
-      if( !mousePressed ) zoog[i].speed = 1;
+      if ( mousePressed && zoog[i].eye_l_crushed||zoog[i].eye_r_crushed ) zoog[i].speed = 0.4;
+      if ( !mousePressed ) zoog[i].speed = 1;
       if (zoog[i].overflow(zoog[i])) gameover = true;
       //if (zoog[i].boardhit(board)) {
       //   t_all += 5;
@@ -66,7 +66,7 @@ class State_Game_Nerae extends State {
     count.display();
     time.display();
   }
-  
+
   State next() {
     if (gameclear) return new State_End_Youwon(stage);
     else if (gameover) return new State_End_Gameover("Fallen Out", stage*1000+count.count_dead*100+time.t_remain*10);

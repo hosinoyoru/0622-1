@@ -19,8 +19,8 @@ class State_Game_Hanekaese extends State {
     zoog[0] = new Zoog_Bouncing( (int)random(width), (int)random(-height, 0));
     for (int i=1; i<zoog.length; i++) {
       zoog[i] = new Zoog_Bouncing( (int)random(width), (int)random(-height, 0) % (zoog[i-1].y*100));
-      //if(i%count_all == 0)
-      //zoog[i] = new Zoog_Jiggling( (int)random(width), (int)random(-height+1,0), board );
+      if(i%count_all == 0)
+      zoog[i] = new Zoog_Crossing( (int)random(width), (int)random(-height+1,0));
     }
     count = new Count(count_all);
     count.hit = true;
@@ -34,14 +34,14 @@ class State_Game_Hanekaese extends State {
     for (int i=0; i<zoog.length; i++) {
       zoog[i].move();
       if (zoog[i].dead()) count.count_dead++; 
-      if( zoog[i].inframe(mouseX, mouseY) && mousePressed  ) zoog[i].speed = 0.5;
-      if( !mousePressed ) zoog[i].speed = 1;
+      if ( zoog[i].inframe(mouseX, mouseY)) zoog[i].speed = 2;
+      else zoog[i].speed = 1;
       if (zoog[i].overflow(zoog[i])) gameover = true;
-      if( board.hit(zoog[i].x, zoog[i].y+zoog[i].h) ) {
-         t_all += 5;
-         count.count_hit++;
-         zoog[i].boardhit();
-         zoog[i].dead = true;
+      if ( board.hit(zoog[i].x, zoog[i].y+zoog[i].h) ) {
+        t_all += 5;
+        count.count_hit++;
+        zoog[i].boardhit();
+        zoog[i].dead = true;
         //if(i%count_all==0)gameover = true;
       }
     }
@@ -65,7 +65,7 @@ class State_Game_Hanekaese extends State {
     count.display();
     time.display();
   }
-  
+
   State next() {
     if (gameclear) return new State_End_Youwon(stage);
     else if (gameover) return new State_End_Gameover("Fallen Out", stage*1000+count.count_dead*100+time.t_remain*10);

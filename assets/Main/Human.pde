@@ -27,31 +27,32 @@ class Human {
   void follow_x() {
     human_x = mouseX;
   }
-  
-  void move(){
-    if ( keyPressed && key == CODED && keyCode == LEFT) { x_d = -1; xspeed = 2; }
-    if ( keyPressed && key == CODED && keyCode == RIGHT){ x_d = 1; xspeed = 2; } 
-    if ( keyPressed && key == ' ' && human_y == height * 0.8){ y_d = -1; yspeed = 5; }
-    
+
+  void move() {
+    if ( keyPressed && key == 'a' ) { 
+      x_d = -1; 
+      xspeed = 2;
+    }
+    if ( keyPressed && key == 'd' ) { 
+      x_d = 1; 
+      xspeed = 2;
+    } 
+    if ( keyPressed && key == ' ' && human_y == height * 0.8) { 
+      y_d = -1; 
+      yspeed = 6;
+    }
     human_x += x_d * xspeed;
     human_y += y_d * yspeed;
-    xspeed *= 0.993;                            // slow down because of Air resistance
+    xspeed *= 0.993;                           // slow down because of Air resistance
     if (human_x > width) human_x = width;      // reaching right wall
     if (human_x < 0) human_x = 0;              // reaching left wall
-    
-    if (human_y >= height * 0.8 ){ human_y = height * 0.8; yspeed = 0; }  // on the ground
-    else { y_d += 0.02;  }                      // falling to the ground
-  }
-
-  void keyPressed(){
-  }
-  
-  void keyReleased(){
-    //if(key == ' ' && yspeed < 0.5) yspeed = 0.5;
-
-     //xspeed = 0;
-    //if ( key == CODED && keyCode == RIGHT) xspeed = 0;
-    //  if(key == ' ' && yspeed < 0) yspeed = 0;
+    if (human_y >= height * 0.8 ) { 
+      human_y = height * 0.8; 
+      yspeed = 0;
+    }  // on the ground
+    else { 
+      y_d += 0.02;
+    }                      // falling to the ground
   }
 
   boolean hit(float x, float y, float r) {

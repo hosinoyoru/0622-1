@@ -11,7 +11,7 @@ class Time {
   void display() {
     textSize(80);
     fill(#ffa500);
-    textAlign(CENTER,CENTER);
+    textAlign(CENTER, CENTER);
     if (t_remain <= 5) fill( random(255), random(255), random(255) );
     text(t_remain, width*0.5, height*0.5);
   }
