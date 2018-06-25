@@ -2,7 +2,7 @@ abstract class Zoog {
   float x, y, w, h, eye;
   int x_d = ((int)random(2)*2-1), y_d = 1;
   float speed = 1;
-  boolean dead = false, eye_l_crushed = false, eye_r_crushed = false;
+  boolean dead = false, eye_l_crushed = false, eye_r_crushed = false, inframe = false;
 
   Zoog(float x, float y) {
     this.x = x;
@@ -21,7 +21,7 @@ abstract class Zoog {
     fill(255);
     rect(x, y+h, w*2/3, h*5*2/3); // body
     stroke(0);
-    fill(255);
+    fill(inframe ? 100 : 255);
     ellipse(x, y, w, h); // head
     noStroke();
     fill(dead || eye_l_crushed?255:0);
@@ -40,7 +40,9 @@ abstract class Zoog {
       eye_r_crushed = true;  
   }
   boolean inframe(int mx, int my){
-    return (sq(mx - x) + sq(my - y) < sq(w));    
+    if(sq(mx - x) + sq(my - y) < sq(w) ) inframe = true;
+    else inframe = false;
+    return inframe;
   }
   
   boolean dead() {

@@ -5,6 +5,7 @@ class State_Title extends State {
   int index = (int)random(gametype.length);
   
   State_Title(int stage) {
+    //textFont(font2);
     this.stage = stage;
     this.zoog = new Zoog[stage];
     for (int i=0; i<zoog.length; i++)
@@ -21,9 +22,9 @@ class State_Title extends State {
     textAlign(CENTER, CENTER);
     if(stage == gametype[index%gametype.length])
       text("よけろ！", width * 0.5, height * 0.3);
-    else if(stage == gametype[index%gametype.length-1])
+    else if(stage == gametype[index%gametype.length]-1)
       text("ねらえ！", width * 0.5, height * 0.3);
-    else if(stage == gametype[index%gametype.length-2])
+    else if(stage == gametype[index%gametype.length]-2)
       text("とべ！", width * 0.5, height * 0.3);
     else
       text("はねかえせ！", width * 0.5, height * 0.3);
@@ -38,9 +39,9 @@ class State_Title extends State {
     if (keyPressed && key == ' ') {
       if(stage == gametype[index%gametype.length])
         return new State_Game_Yokero(stage, stage*6, 15);
-      else if(stage == gametype[index%gametype.length-1])
+      else if(stage == gametype[index%gametype.length]-1)
         return new State_Game_Nerae(stage, stage*6, 15);
-      else if(stage == gametype[index%gametype.length-2])
+      else if(stage == gametype[index%gametype.length]-2)
         return new State_Game_Tobe(stage, stage*6, 15);
       else
         return new State_Game_Hanekaese(stage, stage*6, 15);
