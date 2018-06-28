@@ -34,28 +34,18 @@ class State_Game_Tobe extends State {
     count.count_dead = 0;
     for (Zoog zg : zoog) {
       zg.move();
-      //if (zg.dead()) count.count_dead++; 
-      //if (mousePressed) zg.crushed(mouseX, mouseY);
-      //if( mousePressed && zg.eye_l_crushed||zg.eye_r_crushed ) zg.speed = 0.4;
-      //if( !mousePressed ) zg.speed = 1;
-      if (zg.overflow(zg)) count.count_dead++;
-      //if (board.hit(zg.x, zg.y)) {
-      //t_all += 5;
-      //count.count_hit++;
-      //zg.eye_l_crushed = true;
-      //zg.eye_r_crushed = true;
-      //if(i%count_all==0)gameover = true;
-      //}
-      if (human.hit(zg.x, zg.y, zg.w)) gameover = true;
+      if (zg.dead()) count.count_dead++; 
     }
-    for (Zoog i : zoog) {
-      if ( !i.dead() ) {
-        gameclear = false; 
-        break;
-      } 
+    
+    for (Zoog zg : zoog) {
+      if (human.hit(zg.x, zg.y, zg.w)) gameover = true; // ゲームオーバー
+    }
+    
+    for (Zoog zg : zoog) {
+      if ( !(zg.l_overflow || zg.b_overflow) )break; // ゲームクリア
       gameclear = true;
     }
-    //board.follow_x();
+    
     human.move();
 
     time  = new Time(t_all, t_state);

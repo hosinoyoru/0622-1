@@ -33,21 +33,20 @@ class State_Game_Hanekaese extends State {
     count.count_dead = 0;
     for (Zoog zg : zoog) {
       zg.move();
-      if (zg.dead()) count.count_dead++; 
-      if ( zg.inframe(mouseX, mouseY)) zg.speed = 2;
+      if ( zg.dead() ) count.count_dead++; 
+      if ( zg.inframe(mouseX, mouseY) ) zg.speed = 2;
       else zg.speed = 1;
-      if (zg.overflow(zg)) gameover = true;
+      if ( zg.b_overflow ) gameover = true;  // ゲームオーバー
       if ( board.hit(zg.x, zg.y+zg.h) ) {
         t_all += 5;
         count.count_hit++;
         zg.boardhit();
         zg.dead = true;
-        //if(i%count_all==0)gameover = true;
       }
     }
     for (Zoog zg : zoog) {
-        if( !zg.dead() ) break;
-        gameclear = zg.dead();
+        if( !zg.t_overflow ) break;
+        gameclear = true;        // ゲームクリア
     }
     board.follow_x();
     time  = new Time(t_all, t_state);

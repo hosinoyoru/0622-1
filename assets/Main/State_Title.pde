@@ -1,8 +1,8 @@
 class State_Title extends State {
   Zoog[] zoog;
   int stage;
-  int[] gametype = {1, 2, 3, 4};
-  int index = (int)random(gametype.length);
+  int gametype = 3;
+  int[] order = n_rand(gametype);
 
   State_Title(int stage) {
     //textFont(font2);
@@ -17,20 +17,20 @@ class State_Title extends State {
     background(255);
     fill(0);
     textAlign(CENTER, CENTER);
-    if (stage == gametype[index%gametype.length]) {
+    if (stage == order[0]) {
      
       textSize(32);
       text("よけろ！", width * 0.5, height * 0.3);
       textSize(20);
       text("[A] to move left, [D] to move right, [SPACE] to jump", width * 0.5, height * 0.75);
     }
-    else if (stage == gametype[index%gametype.length]-1) {
+    else if (stage == order[1]) {
       textSize(32);
       text("ねらえ！", width * 0.5, height * 0.3);
       textSize(20);
       text("Click on Zoog's head", width * 0.5, height * 0.75);
     }
-    else if (stage == gametype[index%gametype.length]-2) {
+    else if (stage == order[2]) {
       textSize(32);
       text("とべ！", width * 0.5, height * 0.3);
       textSize(20);
@@ -49,11 +49,11 @@ class State_Title extends State {
 
   State next() {
     if (keyPressed && key == ' ') {
-      if (stage == gametype[index%gametype.length])
+      if (stage == order[0])
         return new State_Game_Yokero(stage, stage*6, 15);
-      else if (stage == gametype[index%gametype.length]-1)
+      else if (stage == order[1])
         return new State_Game_Nerae(stage, stage*6, 15);
-      else if (stage == gametype[index%gametype.length]-2)
+      else if (stage == order[2])
         return new State_Game_Tobe(stage, stage*6, 15);
       else
         return new State_Game_Hanekaese(stage, stage*6, 15);

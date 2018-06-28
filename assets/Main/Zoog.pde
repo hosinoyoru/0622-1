@@ -2,7 +2,7 @@ abstract class Zoog {
   float x, y, w, h, eye;
   int x_d, y_d;
   float speed = 1;
-  boolean dead, eye_l_crushed, eye_r_crushed, crushed, inframe, overflow;
+  boolean dead, eye_l_crushed, eye_r_crushed, crushed, inframe, l_overflow, r_overflow, t_overflow, b_overflow, overflow;
 
   Zoog(float x, float y) {
     this.x = x;
@@ -16,6 +16,10 @@ abstract class Zoog {
     eye_r_crushed = false;
     crushed = false;
     inframe = false;
+    l_overflow = false;
+    r_overflow = false;
+    t_overflow = false;
+    b_overflow = false;
     overflow = false;
     dead = false;
   }
@@ -44,20 +48,24 @@ abstract class Zoog {
     y_d *= -1;
   }
 
+  boolean inframe(int mx, int my) {
+    inframe = (sq(mx - x) + sq(my - y) < sq(w) );
+    return inframe;
+  }
+  
   boolean crushed(int mx, int my) {
     eye_l_crushed = (sq(mx - (x-w*2/3+1))/((eye/2)*(eye/2)) + sq(my - (y))/(eye*eye) < 1);
     eye_r_crushed = (sq(mx - (x+w*2/3+1))/((eye/2)*(eye/2)) + sq(my - (y))/(eye*eye) < 1);
     crushed = (eye_l_crushed && eye_r_crushed);
     return crushed;
   }
-  
-  boolean inframe(int mx, int my) {
-    inframe = (sq(mx - x) + sq(my - y) < sq(w) );
-    return inframe;
-  }
 
   boolean overflow(Zoog zoog) {
-    overflow = (zoog.y-zoog.h*2>height && !dead());
+    l_overflow = (zoog.x+zoog.w < 0);        // left wall overflow
+    r_overflow = (zoog.x-zoog.w > width);   // right wall overflow
+    t_overflow = (zoog.y+zoog.h < 0);        // top wall overflow
+    b_overflow = (zoog.y-zoog.h > height);   // bottom wall overflow
+    overflow  = ( l_overflow || r_overflow || t_overflow || b_overflow );
     return overflow;
   }
   

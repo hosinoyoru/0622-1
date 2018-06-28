@@ -16,12 +16,8 @@ class State_Game_Nerae extends State {
     this.zoog = new Zoog[count_all]; 
     this.sight = new Sight();
     board = new Board();
-    zoog[0] = new Zoog_Bouncing( (int)random(width), (int)random(-height, 0) );
-    for (int i=1; i<zoog.length; i++) {
-      zoog[i] = new Zoog_Bouncing( (int)random(width), (int)random(-height, 0) % (zoog[i-1].y*100));
-      //if(i%count_all == 0)
-      //zoog[i] = new Zoog_Jiggling( (int)random(width), (int)random(-height+1,0), board );
-    }
+    for (int i=0; i<zoog.length; i++)
+      zoog[i] = new Zoog_Bouncing( (int)random(width), (int)random(-height, 0) );
     count = new Count(count_all);
     count.dead = true;
     time  = new Time(t_all, t_state);
@@ -36,14 +32,22 @@ class State_Game_Nerae extends State {
       if ( zg.dead() ) count.count_dead++;
       if ( mousePressed ) {
         if ( zg.crushed( mouseX, mouseY ) ) zg.speed *= 1.2;
-        if ( zg.inframe( mouseX, mouseY ) );
+        if ( zg.inframe( mouseX, mouseY ) ) zg.x_d = ((int)random(2)*2-1);
       }
       if ( !mousePressed ) zg.speed = 1;
-      if (zg.overflow(zg)) gameover = true;
-      if( !zg.dead() ) break;
-      gameclear = zg.dead();
+      
     }
-    //board.follow_x();
+
+
+    for (Zoog zg : zoog) {
+      if( !zg.crushed ) break;
+      gameclear = true; // ゲームクリア
+    }
+
+    for (Zoog zg : zoog) {
+      if ( zg.b_overflow || !zg.crushed ) gameover = true; // ゲームオーバー
+    }
+    
     time  = new Time(t_all, t_state);
   }
 
