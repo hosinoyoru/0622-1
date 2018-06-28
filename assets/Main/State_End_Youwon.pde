@@ -4,8 +4,10 @@ class State_End_Youwon extends State {
   State_End_Youwon(int stage) {
     this.stage = stage;
   }
+  
   void update() {/* do nothing */
   }
+  
   void display() {
     background(255);
     textSize(32);

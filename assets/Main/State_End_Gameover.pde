@@ -7,7 +7,7 @@ class State_End_Gameover extends State {
     this.score = score;
   }
 
-  void update() {
+  void update() {/* do nothing */
   }
 
   void display() {

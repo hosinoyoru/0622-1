@@ -9,6 +9,8 @@ class Board {
     board_x2 = board_x1+board_w;
     board_y2 = board_y1+board_h;
   }
+  
+  void update() {/* do nothing */}
 
   void display() {
     strokeWeight(5);

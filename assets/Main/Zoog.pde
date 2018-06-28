@@ -2,7 +2,7 @@ abstract class Zoog {
   float x, y, w, h, eye;
   int x_d, y_d;
   float speed = 1;
-  boolean dead = false, eye_l_crushed = false, eye_r_crushed = false, inframe = false;
+  boolean dead, eye_l_crushed, eye_r_crushed, crushed, inframe, overflow;
 
   Zoog(float x, float y) {
     this.x = x;
@@ -12,8 +12,14 @@ abstract class Zoog {
     w = 30; 
     h = 30; 
     eye = 16;
+    eye_l_crushed = false;
+    eye_r_crushed = false;
+    crushed = false;
+    inframe = false;
+    overflow = false;
+    dead = false;
   }
-
+  void update() {/* do nothing */}
   private void display() {
     strokeWeight(1);
     ellipseMode(RADIUS);
@@ -33,31 +39,32 @@ abstract class Zoog {
     line(x-w/3, y+h*8/3, x-w*2/3, y+h*3); // left leg
     line(x+w/3, y+h*8/3, x+w*2/3, y+h*3); // right leg
   }
-
-  void crushed(int mx, int my) {
-    if (sq(mx - (x-w*2/3+1))/((eye/2)*(eye/2)) + sq(my - (y))/(eye*eye) < 1) 
-      eye_l_crushed = true;
-    if (sq(mx - (x+w*2/3+1))/((eye/2)*(eye/2)) + sq(my - (y))/(eye*eye) < 1) 
-      eye_r_crushed = true;
-  }
-
-  boolean inframe(int mx, int my) {
-    if (sq(mx - x) + sq(my - y) < sq(w) ) inframe = true;
-    else inframe = false;
-    return inframe;
-  }
-
-  boolean dead() {
-    return dead ? true : (eye_l_crushed && eye_r_crushed);
-  }
-
-  boolean overflow(Zoog zoog) {
-    return (zoog.y-zoog.h*2>height && !dead());
-  }
-
-  void boardhit() { 
+  
+  void boardhit() {
     y_d *= -1;
   }
 
+  boolean crushed(int mx, int my) {
+    eye_l_crushed = (sq(mx - (x-w*2/3+1))/((eye/2)*(eye/2)) + sq(my - (y))/(eye*eye) < 1);
+    eye_r_crushed = (sq(mx - (x+w*2/3+1))/((eye/2)*(eye/2)) + sq(my - (y))/(eye*eye) < 1);
+    crushed = (eye_l_crushed && eye_r_crushed);
+    return crushed;
+  }
+  
+  boolean inframe(int mx, int my) {
+    inframe = (sq(mx - x) + sq(my - y) < sq(w) );
+    return inframe;
+  }
+
+  boolean overflow(Zoog zoog) {
+    overflow = (zoog.y-zoog.h*2>height && !dead());
+    return overflow;
+  }
+  
+  boolean dead() {
+    dead = (crushed || overflow);
+    return dead;
+  }
+  
   abstract void move();
 }

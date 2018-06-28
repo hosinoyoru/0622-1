@@ -10,7 +10,7 @@ class Human {
     xspeed = 0;
     yspeed = 0;
   }
-
+  void update() {/* do nothing */}
   void display() {
     fill(200, 200, 0);
     strokeWeight(5);

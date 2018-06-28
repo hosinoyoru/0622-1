@@ -31,26 +31,23 @@ class State_Game_Hanekaese extends State {
 
   void update() {
     count.count_dead = 0;
-    for (int i=0; i<zoog.length; i++) {
-      zoog[i].move();
-      if (zoog[i].dead()) count.count_dead++; 
-      if ( zoog[i].inframe(mouseX, mouseY)) zoog[i].speed = 2;
-      else zoog[i].speed = 1;
-      if (zoog[i].overflow(zoog[i])) gameover = true;
-      if ( board.hit(zoog[i].x, zoog[i].y+zoog[i].h) ) {
+    for (Zoog zg : zoog) {
+      zg.move();
+      if (zg.dead()) count.count_dead++; 
+      if ( zg.inframe(mouseX, mouseY)) zg.speed = 2;
+      else zg.speed = 1;
+      if (zg.overflow(zg)) gameover = true;
+      if ( board.hit(zg.x, zg.y+zg.h) ) {
         t_all += 5;
         count.count_hit++;
-        zoog[i].boardhit();
-        zoog[i].dead = true;
+        zg.boardhit();
+        zg.dead = true;
         //if(i%count_all==0)gameover = true;
       }
     }
-    for (int i=0; i<zoog.length; i++) {
-      if ( !zoog[i].dead() ) {
-        gameclear = false; 
-        break;
-      } 
-      gameclear = true;
+    for (Zoog zg : zoog) {
+        if( !zg.dead() ) break;
+        gameclear = zg.dead();
     }
     board.follow_x();
     time  = new Time(t_all, t_state);
@@ -59,9 +56,8 @@ class State_Game_Hanekaese extends State {
   void display() {
     background(255);
     board.display();
-    for (int i=0; i<zoog.length; i++)
-      zoog[i].display();
-    //sight.display();
+    for (Zoog zg : zoog)
+      zg.display();
     count.display();
     time.display();
   }

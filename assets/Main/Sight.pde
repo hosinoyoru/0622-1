@@ -1,4 +1,7 @@
 class Sight {
+  
+  void update() {/* do nothing */}
+  
   void display() {
     strokeWeight(1);
     stroke(200);

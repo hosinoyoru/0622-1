@@ -3,7 +3,7 @@ class Zoog_Crossing extends Zoog {
   Zoog_Crossing(float x, float y) {
     super(x, y);
   }
-
+  void update() {/* do nothing */}
   void move() {
     x += random(-1, 1)*speed;
     y += random(-1, 1)*speed;

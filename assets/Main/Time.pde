@@ -7,7 +7,7 @@ class Time {
     this.t_all  = t_all;
     this.t_remain = (int)((float)t_all - t_state);
   } 
-
+  void update() {/* do nothing */}
   void display() {
     textSize(80);
     fill(#ffa500);

@@ -7,6 +7,8 @@ class Count {
     dead = false;
     hit = false;
   }
+  
+  void update() {/* do nothing */}
 
   void display() {
     fill(200);

@@ -3,6 +3,8 @@ class Burret {
 
   Burret() {
   }
+  
+  void update() {/* do nothing */}
 
   void display() {
     ellipseMode(CENTER);
